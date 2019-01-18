@@ -3,7 +3,7 @@ import random
 from threading import Timer
 import os
 
-# Class to determine if the
+# Class to identify if the application is running or has been closed
 class Running(object):
 
     def __init__(self):
