@@ -17,7 +17,7 @@ class Running(object):
 
 # Close Slack
 def close():
-    os.system("osascript -e 'quit app \"/Applications/Atom.app\"'")
+    os.system("osascript -e 'quit app \"/Applications/Slack.app\"'")
     running.setActive(False)
 
 # Execute Timer
